@@ -1,16 +1,16 @@
 @font-face {
     font-family: Montserrat;
-    src: url('Montserrat.ttf') format('truetype');
+    src: url('../font/Montserrat.ttf') format('truetype');
 }
 
 @font-face {
     font-family: Montserrat-Bold;
-    src: url("Montserrat-Bold.ttf") format("truetype");
+    src: url("../font/Montserrat-Bold.ttf") format("truetype");
 }
 
 @font-face {
     font-family: Montserrat-Medium;
-    src: url("Montserrat-Medium.ttf");
+    src: url("../font/Montserrat-Medium.ttf");
 }
 
 #page {
@@ -25,6 +25,11 @@
 
 html {
     width: 100%;
+}
+
+body {
+    width: 100%;
+    margin: 0px;
 }
 
 .contact {

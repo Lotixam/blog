@@ -1,0 +1,138 @@
+#banniere {
+    /* Type de display*/
+    display: flex;
+    flex-direction: column;
+
+    /* La forme */
+    background-color: #555555;
+    padding: 0;
+    justify-content: center;
+
+    /* Les alignements */
+    align-items: center;
+    object-fit: contain;
+    width: 100%;
+}
+
+.image-filter {
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+    transition: filter 0.3s;
+}
+
+a:hover {
+    color: #b1e810;
+}
+
+.sous-liens {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sous-liens br {
+
+    content: "";
+    display: block;
+    margin-bottom: 10px;
+
+}
+
+#logo {
+    display: flex;
+    resize: none;
+    object-fit: contain;
+}
+
+#devanture {
+    display: flex;
+    object-fit: contain;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#liens {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    justify-content: center;
+    align-items: baseline;
+    width: 100%;
+    font-size: 15px;
+    background-color: black;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 23px;
+}
+
+#liens div {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.sign {
+    position: absolute;
+    right: 30px;
+    top: 20px;
+}
+
+.sign a {
+    font-family: Montserrat;
+}
+
+.br1 {
+    line-height: -120px;
+}
+
+@media screen and (min-width: 1200px) {
+    #banniere #logo img {
+        margin-top: 23px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    .sign {
+        display: none;
+    }
+
+    #liens {
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+        padding: 1em;
+        justify-content: space-around;
+        align-items: center;
+        width: 80%;
+        font-size: 30;
+        display: none;
+    }
+
+    #logo {
+        display: flex;
+        resize: none;
+        object-fit: contain;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #logo img[width="170"] {
+        margin-top: 23px;
+    }
+
+    #devanture {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 20px;
+    }
+}
+
+#sentence {
+    padding-left: 0.7em;
+    padding-bottom: 1em;
+    font-family: Montserrat, "Sans Serif";
+}
