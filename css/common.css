@@ -32,6 +32,10 @@ body {
     margin: 0px;
 }
 
+h1 {
+    font-family: Montserrat-Bold;
+}
+
 .contact {
     display: flex;
     justify-content: center;
