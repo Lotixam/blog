@@ -5,7 +5,7 @@ session_start();
 $srcArticles = "article/";
 setcookie("src",  $srcArticles, time() + (3600)); // set cookie for src of articles folder
 
-exec('cd ' . $srcArticles . '. && ls', $output, $return_var);
+exec('cd ' . $srcArticles . '. && ls -1t', $output, $return_var);
 // echo "<pre>"; print_r($output); echo "</pre>"; // Affiche le résultat sous forme de tableau
 
 // $xmlListString = file_get_contents($srcArticles . 'list.xml');

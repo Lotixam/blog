@@ -98,23 +98,23 @@
                     %li#
                         Les bases de données des prix fonciers :
                         %ul#
-                            %li#Ministère de l'Agriculture et de l'Alimentation: %a class='liens-xml' href='https://agriculture.gouv.fr/'#https://agriculture.gouv.fr/%/a# %/li#
-                            %li#Direction générale des Finances publiques: %a class='liens-xml' https://www.impots.gouv.fr/accueil#https://www.impots.gouv.fr/accueil%/a# %/li#
+                            %li#Ministère de l'Agriculture et de l'Alimentation: %a class='liens-xml' href='https://agriculture.gouv.fr/'#agriculture.gouv.fr/%/a# %/li#
+                            %li#Direction générale des Finances publiques: %a class='liens-xml' href='https://www.impots.gouv.fr/accueil'#impots.gouv.fr%/a# %/li#
                         %/ul#
                     %/li#
                     %li#
                         Les outils d'estimation en ligne :
                         %ul#
-                            %li#Meilleurs Agents: %a class='liens-xml' href='https://www.meilleursagents.com/'#https://www.meilleursagents.com/%/a# %/li#
-                            %li#Immobilier.notaires.fr: %a class='liens-xml' href='https://www.immobilier.notaires.fr/'#https://www.immobilier.notaires.fr/%/a# %/li#
-                            %li#Bien Ici: %a class='liens-xml' href='https://www.bienici.com/article/estimez-gratuitement-le-prix-de-votre-bien'#https://www.bienici.com/article/estimez-gratuitement-le-prix-de-votre-bien%/a# %/li#
+                            %li#Meilleurs Agents: %a class='liens-xml' href='https://www.meilleursagents.com/'#meilleursagents.com%/a# %/li#
+                            %li#Immobilier.notaires.fr: %a class='liens-xml' href='https://www.immobilier.notaires.fr/'#immobilier.notaires.fr%/a# %/li#
+                            %li#Bien Ici: %a class='liens-xml' href='https://www.bienici.com/article/estimez-gratuitement-le-prix-de-votre-bien'#www.bienici.com %/a# %/li#
                         %/ul#
                     %/li#
                     %li#
                         Les professionnels de l'immobilier :
                         %ul#
-                            %li#Chambre des notaires de France: %a class='liens-xml' href='https://www.notaires.fr/fr'#https://www.notaires.fr/fr%/a# %/li#
-                            %li#Fédération nationale de l'immobilier: %a class='liens-xml' href='https://www.fnaim.fr/'#https://www.fnaim.fr/%/a# %/li#
+                            %li#Chambre des notaires de France: %a class='liens-xml' href='https://www.notaires.fr/fr'#www.notaires.fr%/a# %/li#
+                            %li#Fédération nationale de l'immobilier: %a class='liens-xml' href='https://www.fnaim.fr/'#www.fnaim.fr%/a# %/li#
                         %/ul#
                     %/li#
                 %/ul#
