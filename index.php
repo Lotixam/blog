@@ -16,9 +16,10 @@ exec('cd ' . $srcArticles . '. && ls -1t', $output, $return_var);
 
 <html>
     <head>
-        <link rel="stylesheet" href="../css/banner.css" type="text/css">
-        <link rel="stylesheet" href="../css/common.css" type="text/css">
-        <link rel="stylesheet" href="../css/preview_articles.css" type="text/css">
+        <link rel="stylesheet" href="/css/banner.css" type="text/css">
+        <link rel="stylesheet" href="/css/common.css" type="text/css">
+        <link rel="stylesheet" href="/css/preview_articles.css" type="text/css">
+        <link rel="stylesheet" href="/css/foot.css" type="text/css">
     </head>
     <body>
         <!-- BANNER -->
@@ -58,5 +59,27 @@ exec('cd ' . $srcArticles . '. && ls -1t', $output, $return_var);
             echo "</div>\n";
             ?>
         </div>
+        
     </body>
+    <footer>
+        <div>
+            <b>© LOTIXAM SAS 2024. Tous droits réservés</b>
+        </div>
+        <div class="separator">-</div>
+        <div>
+            <a href="legals.html">Mentions légales</a>
+        </div>
+        <div class="separator">-</div>
+        <div>
+            <a href="https://blog.lotixam.fr/">Blog</a>
+        </div>
+        <div class="separator">-</div>
+        <div>
+            <a href="https://faq.lotixam.fr/">FAQ</a>
+        </div>
+        <div class="separator">-</div>
+        <div>
+            <a href="contributors.html">Contributeurs &amp; Partenaires</a>
+        </div>
+    </footer>
 </html>
