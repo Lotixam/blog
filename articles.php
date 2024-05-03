@@ -17,12 +17,14 @@ $content = new SimpleXMLElement($xml);
         <!-- BANNER -->
         <?php include("./header/banner.html");?>
         <div class="bandeau">
-            <a href="..">blog</a>&nbsp;&#x3E; <?php  echo $content->title ?>
+            
+            <a href="..">blog</a>&nbsp;&#x3E; <?php $textTitre = str_replace(["%", "#", "<br>"], ["<", ">", " - "], $content->title); echo $textTitre ?>
         </div>
 
         <div class="main-content">
             <?php
-            echo "<h1>" . $content->title . "</h1>";
+            $textTitre = str_replace(["\$pour", "\$croi","%", "#"], ["%", "#", "<", ">"], $content->title);
+            echo "<h1>" . $textTitre . "</h1>";
             echo "<div class='sub-content'>";
             $textIntro = str_replace(["\$pour", "\$croi","%", "#"], ["%", "#", "<", ">"], $content->content->p[0]->text);
             echo "<p>" . $textIntro . "</p>";
@@ -44,10 +46,14 @@ $content = new SimpleXMLElement($xml);
             }
             echo "</div>"
             ?>
-            <div class="contact" id="contact-welcome">
-                <button class="contact-button" id="contact-button-index-1"
-                    onclick="window.location.href = 'https://lotixam.fr';">LOTIXAM SITE</button>
-            </div>
+            <br>
+            <p>
+                D'autres articles qui pourraient vous intéresser. Découvrez-les en <u><a href="https://blog.lotixam.fr/">cliquant ici.</a> </u>
+            </p>
+            <br>
+            <p>
+                <a href="https://lotixam.fr">Envie d'en savoir plus ? Que vous ayez comme projet de vendre un bien ou d'en acheter un,<br> <u><blue>cliquez-ici</blue></u> pour accéder à notre site complet et découvrir comment Lotixam peut vous aider.</a> 
+            </p>
         </div>
     </body>
 </html>
