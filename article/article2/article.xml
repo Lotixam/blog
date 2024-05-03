@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <author>
+        Xavier Espinar
+    </author>
+    <date>
+        02/05/2024
+    </date>
+    <title>
+        ETUDE DE SOL OBLIGATOIRE POUR VENDRE SON TERRAIN ?
+    </title>
+    <image>
+        <url>article.jpg</url>
+    </image>
+    <content>
+        <p>
+            <title>
+                Introduction
+            </title>
+            <text>
+                
+            </text>
+        </p>
+        <p>
+            <title>
+                Dans quel cas l’étude sol est-elle obligatoire ?
+            </title>
+            <text>
+                La nécessité d'une étude de sol avant la vente d'un terrain dépend largement de la nature du
+                sol. Si c'est vivement recommandé dans de nombreux secteurs, cela devient une exigence
+                dans les régions françaises caractérisées par des sols argileux.
+                %br#%br#
+                Généralement, cette étude est obligatoire pour près de la moitié du territoire français, d'après
+                les données du BRGM (Bureau de Recherches Géologiques et Minières), l'autorité publique
+                en matière de risques liés aux sols.
+                %br#%br#
+                Une carte consultable sur le site %a href="https://georisques.gouv.fr"#georisques.gouv.fr%/a# permet de déterminer si un terrain se
+                situe dans une zone à risque, classée en trois niveaux d'exposition : faible, moyen et fort.
+                Si après vérification, le terrain à vendre ne se situe pas dans une zone géographique à risques
+                (zone orange et rouge sur la carte %a href="https://georisques.gouv.fr"#georisques.gouv.fr%/a#), l’étude de sol n’est alors pas
+                obligatoire pour le vendeur.
+            </text>
+        </p>
+        <p>
+            <title>Quelle est la nécessité d'une étude de sol ?</title>
+            <text>
+                Les sols argileux présentent une faible résistance aux précipitations hivernales et à la sécheresse estivale.%br#%br#
+                Les sols argileux ont tendance à se dilater sous l'effet de l'eau et à se contracter naturellement avec l'exposition à la chaleur du soleil. Cette alternance de gonflement et de rétraction comporte un risque élevé de mouvements de terrain, pouvant entraîner des dommages considérables aux structures telles que des fissures dans les fondations et les murs.%br#%br# 
+                L'objectif de l'étude géotechnique obligatoire, exigée pour tout vendeur de terrain situé dans une zone à sols argileux, est de garantir la sécurité des futures constructions érigées sur ce terrain. À cet égard, cette étude doit être annexée au compromis de vente ou à l'acte authentique de vente.
+            </text>
+        </p>
+        <p>
+            <title>Quels sont les cas concernés par cette exigence ?</title>
+            <text>
+                Dans les régions concernées, les transactions sujettes à une étude de sol obligatoire incluent :
+            %ul#
+                %li#les ventes de terrains nus à bâtir%/li#
+                %li#la conclusion de contrats de construction de maisons individuelles (CCMI).%/li#
+            %/ul#
+
+            En revanche, aucune étude géotechnique n'est requise pour :
+            %ul#
+                %li#des travaux d'extension (comme des garages ou des vérandas) d'une superficie inférieure à 20 m²%/li#
+                %li#des travaux qui n'impliquent pas les fondations de la maison ou le système de drainage des eaux.%/li#
+            %/ul#
+            </text>
+        </p>
+        <p>
+            <title>L'analyse géotechnique</title>
+            <text>
+                L&#39;étude de sol requise lors de la vente d&#39;un terrain est réalisée par un cabinet d&#39;étude en
+                géotechnique.%br#%br#
+                Le géotechnicien procède en 4 étapes :%br#%br#
+                - Il examine divers documents tels que des cartes géologiques et des archives de
+                chantiers antérieurs.%br#%br#
+                - Il se rend sur le site pour une analyse directe du sol, effectuée par le biais de forages à
+                l&#39;aide d&#39;une tarière.%br#%br#
+                - Il évalue la résistance du sol en utilisant un instrument appelé pénétromètre.%br#%br#
+                - Il analyse les échantillons prélevés sur le terrain en laboratoire afin de déterminer la
+                composition en argile et en eau du sol.%br#%br#
+                Cette démarche permet d&#39;identifier renseigner l&#39;acheteur sur les éventuels risques. En cas de
+                vente à un promoteur, cela lui permettra d&#39;adapter les techniques de construction en
+                conséquence.
+            </text>
+        </p>
+        <p>
+            <title>Quel est le coût d&#39;une étude de sol requise lors de la vente d&#39;un terrain ?</title>
+            <text>
+                Le prix d&#39;une étude de sol obligatoire varie considérablement, mais il se situe généralement
+                entre 800 € et 2 000 €. Sa validité s&#39;étend sur une période de 30 ans.
+            </text>
+        </p>
+    </content>
+</root>

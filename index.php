@@ -46,10 +46,11 @@ exec('cd ' . $srcArticles . '. && ls', $output, $return_var);
                 $article = new SimpleXMLElement($xmlString);
 
                 echo "<div class='single-article'>";
+                echo "<a href=\"./articles.php?id="  . $value . "\" >";
                 echo "<img src=\"" . $dossier . "/". $article->image->url .  "\"><br/>";
                 echo "<h3>" . $article->title . "</h3>";
                 // echo "<p>" . $article->content->p[0]->text . "</p>";
-                echo "<a href=\"./articles.php?id="  . $value . "\" >Lire la suite...</a>";
+                echo "Lire la suite...</a>";
                 echo "</div>";
                 ++$i;
             }

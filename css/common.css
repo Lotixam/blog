@@ -13,6 +13,17 @@
     src: url("../font/Montserrat-Medium.ttf");
 }
 
+p a {
+    color: black;
+}
+
+p a:hover {
+    color:green;
+}
+
+li {
+    margin-bottom: 20px;
+}
 #page {
     margin: 0;
     padding: auto;
@@ -30,6 +41,11 @@ html {
 body {
     width: 100%;
     margin: 0px;
+    font-family: Montserrat;
+}
+
+p {
+    line-height: 2;
 }
 
 h1 {
@@ -41,6 +57,19 @@ h1 {
     justify-content: center;
     padding-bottom: 20px;
     padding-top: 20px;
+}
+
+.contact-button {
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #ff0000;
+    color: white;
+    font-family: Montserrat-Bold;
+    font-size: 30px;
+    border-radius: 10px;
+    transition: background-color 100ms ease-out;
 }
 
 @keyframes buttonFadeIn {
