@@ -39,6 +39,14 @@ h2 {
     text-align: left;
 }
 
+.liens-xml {
+    color: black;
+}
+
+.liens-xml:hover {
+    color: green;
+}
+
 @media screen and (max-width: 1200px) {
 
     h1 {

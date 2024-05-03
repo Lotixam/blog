@@ -36,6 +36,9 @@ $content = new SimpleXMLElement($xml);
                     // $text = str_replace(["%/ul#", "%/ul#", "%/li#"], ["</ul>", "</ol>", "</li>"], $text);
                     $text = str_replace(["\$pour", "\$croi","%", "#"], ["%", "#", "<", ">"], $paragraphe->text);
                     echo "<p> $text </p>";
+                    if($paragraphe->image->url != '') {
+                        echo "<img src='" . $folder . $article_name .'/' . $paragraphe->image->url . "' alt='img for $article_name'>";
+                    }
                 }
                 ++$i;
             }
