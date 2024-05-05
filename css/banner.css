@@ -43,6 +43,7 @@ a:hover {
     display: flex;
     resize: none;
     object-fit: contain;
+    margin-bottom: 20px;
 }
 
 #devanture {
@@ -90,9 +91,17 @@ a:hover {
     #banniere #logo img {
         margin-top: 23px;
     }
+
+    .label {
+        margin-left: 12px;
+    }
 }
 
 @media screen and (max-width: 1200px) {
+
+    .bann label {
+        font-size: 30;
+    }
 
     .sign {
         display: none;

@@ -2,7 +2,8 @@
 session_start();
 
 $article_name = $_GET["id"];
-$folder = $_COOKIE["src"];
+// $folder = $_COOKIE["src"];
+$folder = "article/";
 $xml = file_get_contents($folder . $article_name . "/article.xml");
 $content = new SimpleXMLElement($xml);
 ?>
@@ -60,7 +61,7 @@ $content = new SimpleXMLElement($xml);
 
     <footer>
         <div>
-            <b>© LOTIXAM SAS 2024. Tous droits réservés</b>
+            <a href="https://lotixam.fr">© LOTIXAM SAS 2024. Tous droits réservés</a>
         </div>
         <div class="separator">-</div>
         <div>
@@ -77,6 +78,10 @@ $content = new SimpleXMLElement($xml);
         <div class="separator">-</div>
         <div>
             <a href="contributors.html">Contributeurs &amp; Partenaires</a>
+        </div>
+        <div class="separator">-</div>
+        <div>
+            <a href="https://lotixam.fr">Revenir sur lotixam.fr</a>
         </div>
     </footer>
 

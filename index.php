@@ -25,8 +25,6 @@ exec('cd ' . $srcArticles . '. && ls -1t', $output, $return_var);
         <!-- BANNER -->
         <?php include("./header/banner.html"); ?>
 
-        <!-- TITRE -->
-        <h1 style="text-align: center">BLOG</h1>
         <!-- CONTENU -->
         <div class="articles">
             <?php
@@ -50,6 +48,7 @@ exec('cd ' . $srcArticles . '. && ls -1t', $output, $return_var);
                 echo "<a href=\"./articles.php?id="  . $value . "\" >";
                 echo "<img src=\"" . $dossier . "/". $article->image->url .  "\"><br/>";
                 $textTitre = str_replace(["\$pour", "\$croi","%", "#"], ["%", "#", "<", ">"], $article->title);
+                $textTitre = mb_strtoupper($textTitre);
                 echo "<h3>" . $textTitre . "</h3>";
                 // echo "<p>" . $article->content->p[0]->text . "</p>";
                 echo "Lire la suite...</a>";
@@ -63,7 +62,7 @@ exec('cd ' . $srcArticles . '. && ls -1t', $output, $return_var);
     </body>
     <footer>
         <div>
-            <b>© LOTIXAM SAS 2024. Tous droits réservés</b>
+            <a href="https://lotixam.fr">© LOTIXAM SAS 2024. Tous droits réservés</a>
         </div>
         <div class="separator">-</div>
         <div>
@@ -80,6 +79,10 @@ exec('cd ' . $srcArticles . '. && ls -1t', $output, $return_var);
         <div class="separator">-</div>
         <div>
             <a href="contributors.html">Contributeurs &amp; Partenaires</a>
+        </div>
+        <div class="separator">-</div>
+        <div>
+            <a href="https://lotixam.fr">Revenir sur lotixam.fr</a>
         </div>
     </footer>
 </html>
