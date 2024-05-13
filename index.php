@@ -29,6 +29,7 @@ exec('cd ' . $srcArticles . '. && ls -1t', $output, $return_var);
 
         <!-- CONTENU -->
         <div class="articles">
+            <h1>Blog Lotixam</h1>
             <?php
 
             $i = 0;
@@ -68,7 +69,7 @@ exec('cd ' . $srcArticles . '. && ls -1t', $output, $return_var);
         </div>
         <div class="separator">-</div>
         <div>
-            <a href="legals.html">Mentions légales</a>
+            <a href="https://lotixam.fr/html/legals.html">Mentions légales</a>
         </div>
         <div class="separator">-</div>
         <div>

@@ -1,5 +1,9 @@
 <?php
 session_start();
+if (empty($_GET)) {
+    header('Location:index.php');
+    exit(0);
+}
 
 $article_name = $_GET["id"];
 // $folder = $_COOKIE["src"];
@@ -70,7 +74,7 @@ $content = new SimpleXMLElement($xml);
         </div>
         <div class="separator">-</div>
         <div>
-            <a href="legals.html">Mentions légales</a>
+            <a href="https://lotixam.fr/html/legals.html">Mentions légales</a>
         </div>
         <div class="separator">-</div>
         <div>
