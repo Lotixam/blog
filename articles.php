@@ -14,6 +14,11 @@ $content = new SimpleXMLElement($xml);
         <link rel="stylesheet" href="/css/common.css" type="text/css">
         <link rel="stylesheet" href="/css/articles.css" type="text/css">
         <link rel="stylesheet" href="/css/foot.css" type="text/css">
+        <title><?php 
+                $textTitre = str_replace(["\$pour", "\$croi","%", "#"], ["%", "#", "<", ">"], $content->title);
+                echo $textTitre;
+         ?></title>
+         <link href="https://cdn.lotixam.fr/img/logo.png" rel="icon" type="image/x-icon">
     </head>
     <body>
         <!-- BANNER -->

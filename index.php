@@ -20,6 +20,8 @@ exec('cd ' . $srcArticles . '. && ls -1t', $output, $return_var);
         <link rel="stylesheet" href="/css/common.css" type="text/css">
         <link rel="stylesheet" href="/css/preview_articles.css" type="text/css">
         <link rel="stylesheet" href="/css/foot.css" type="text/css">
+        <title>LOTIXAM BLOG</title>
+        <link href="https://cdn.lotixam.fr/img/logo.png" rel="icon" type="image/x-icon">
     </head>
     <body>
         <!-- BANNER -->
