@@ -80,7 +80,7 @@ exec('cd ' . $srcArticles . '. && ls -1t', $output, $return_var);
         </div>
         <div class="separator">-</div>
         <div>
-            <a href="contributors.html">Contributeurs &amp; Partenaires</a>
+            <a href="https://lotixam.fr/html/contributors.html">Contributeurs &amp; Partenaires</a>
         </div>
         <div class="separator">-</div>
         <div>
